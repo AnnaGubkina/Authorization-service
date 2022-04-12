@@ -12,10 +12,11 @@ import java.util.List;
 public class UserRepository {
 
     List<User> userRepository = new ArrayList<>();
+
     {
         userRepository.add(new User("anna", "55555"));
-        userRepository.add(new User("stepan","111999"));
-        userRepository.add(new User("IlonMask","tesla"));
+        userRepository.add(new User("stepan", "111999"));
+        userRepository.add(new User("IlonMask", "tesla"));
     }
 
     public List<Authorities> getUserAuthorities(String login, String password) {
